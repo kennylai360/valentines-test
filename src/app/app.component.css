@@ -1,0 +1,31 @@
+.centered_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.row_alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.yesButton {
+  border: black solid 1px;
+  color: black;
+  border-radius: 20px;
+  background-color: green;
+  margin: 5px;
+}
+
+.noButton {
+  border: black solid 1px;
+  color: black;
+  border-radius: 20px;
+  background-color: red;
+  height: 30px;
+  margin: 5px;
+}
