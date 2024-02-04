@@ -28,6 +28,9 @@ export class AppComponent {
     'Wouldnt you reconsider?',
     'Is that your final answer?',
     'Pretty pweasssee?',
+    "Fine, I'll stop asking...",
+    'Just kidding! PLEASE SAY YES!',
+    "Okay, I'm really really sad now :'(",
     "You're breaking my kokoro ;(",
   ];
 
