@@ -36,14 +36,13 @@ export class AppComponent {
   }
 
   public noButtonClicked(): void {
-    console.log(this.numberOfNoClicked());
-    if (this.numberOfNoClicked() < this.pleaseSayYesStringArray.length - 1) {
-      this.numberOfNoClicked.update((value: number) => value + 1);
-    }
+    this.numberOfNoClicked.update((value: number) => value + 1);
   }
 
   public getNoText(): string {
-    return this.pleaseSayYesStringArray[this.numberOfNoClicked()];
+    return this.pleaseSayYesStringArray[
+      this.numberOfNoClicked() % this.pleaseSayYesStringArray.length
+    ];
   }
 
   public calculateFontSize(): string {
