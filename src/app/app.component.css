@@ -30,6 +30,7 @@
   margin: 5px;
   font-size: 26px;
   min-width: 200px;
+  max-height: 35px;
 }
 
 h1 {
